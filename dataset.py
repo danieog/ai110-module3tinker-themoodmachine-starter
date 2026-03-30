@@ -50,6 +50,21 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "I feel terrible about my exam",
+    "This class is super boring",
+    "I love bread but it makes me tired",
+    "I want to play the sims 4.",
+    "I feel relaxed",
+    "Lowkey proud of myself today, no cap",
+    "Highkey annoyed that the bus was late again",
+    "I absolutely love waiting in traffic for an hour",
+    "Group project is chaos but we are somehow laughing :)",
+    "New playlist goes hard, mood instantly better",
+    "I got the job!!! :)",
+    "lol nothing works and my laptop just froze",
+    "I guess this day happened",
+    "Best coffee ever, but now I am super jittery",
+    "Finals week got me stressed :(",
 ]
 
 # Human labels for each post above.
@@ -65,9 +80,24 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "negative", # terr
+    "negative", # bor
+    "mixed", # bread
+    "neutral", # sims
+    "positive", # relaxed
+    "positive", # lowkey proud
+    "negative", # annoyed bus
+    "negative", # sarcastic traffic
+    "mixed", # chaos but laughing
+    "positive", # playlist better
+    "positive", # got the job
+    "negative", # laptop froze
+    "neutral", # day happened
+    "mixed", # good coffee but jittery
+    "negative", # finals stressed
 ]
 
-# TODO: Add 5-10 more posts and labels.
+# You can keep extending this dataset with more edge cases over time.
 #
 # Requirements:
 #   - For every new post you add to SAMPLE_POSTS, you must add one
